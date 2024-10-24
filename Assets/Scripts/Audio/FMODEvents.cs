@@ -5,11 +5,8 @@ using FMODUnity;
 
 public class FMODEvents : MonoBehaviour
 {
-    [field: Header("Ambience")]
+    [field: Header("Music")]
     [field: SerializeField] public EventReference Hell { get; private set; }
-    
-   // [field: Header("Music")]
-   // [field: SerializeField] public EventReference music { get; private set; }
    
     [field: Header("Dialogue")]
     [field: SerializeField] public EventReference Dialogue { get; private set; }

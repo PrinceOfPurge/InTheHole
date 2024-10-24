@@ -8,13 +8,18 @@ public class PauseMenuUI : MonoBehaviour
 {
     public Button resumeButton;
     public Button mainMenuButton;
+    public Button SoundSetting;
     public Image pauseMenuHolder;
+    public GameObject VolumeControl;
+    public Button BackButton;
 
     // Start is called before the first frame update
     void Start()
     {
         resumeButton.onClick.AddListener(OnResumeButtonClick);
         mainMenuButton.onClick.AddListener(OnMainMenuButtonClick);
+        SoundSetting.onClick.AddListener(OnSoundSettings);
+        BackButton.onClick.AddListener(OnBackButton);
     }
 
     void OnResumeButtonClick()
@@ -24,6 +29,16 @@ public class PauseMenuUI : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
+    }
+
+    void OnBackButton()
+    {
+        VolumeControl.gameObject.SetActive(false);
+    }
+
+    void OnSoundSettings()
+    {
+        VolumeControl.gameObject.SetActive(true);
     }
 
     void OnMainMenuButtonClick()
