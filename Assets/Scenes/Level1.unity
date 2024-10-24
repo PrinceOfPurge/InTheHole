@@ -4164,12 +4164,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df85b44533bd18c44a3a963e5869798f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 7
-  sprintSpeed: 10
+  walkSpeed: 5
+  sprintSpeed: 7
   groundDrag: 5
-  jumpForce: 6
+  jumpForce: 4
   jumpCooldown: 0.25
-  airMultiplier: 0.4
+  airMultiplier: 0.3
   jumpKey: 32
   sprintKey: 304
   playerHeight: 2
@@ -4380,8 +4380,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d598e3887c10b0d459f4fa86f65f9fc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensX: 600
-  sensY: 600
+  sensX: 100
+  sensY: 100
   orientation: {fileID: 1555781768}
 --- !u!114 &963194230
 MonoBehaviour:
@@ -7732,6 +7732,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17930236272be8b4aa1ee43b8207d992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Hell>k__BackingField:
+    Guid:
+      Data1: -789308909
+      Data2: 1114245290
+      Data3: -301521760
+      Data4: -2133553535
+    Path: event:/Ambience/Hell
   <Dialogue>k__BackingField:
     Guid:
       Data1: 889510890
