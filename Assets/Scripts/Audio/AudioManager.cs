@@ -50,7 +50,7 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        //InitializeAmbience(FMODEvents.instance.ambience);
+        InitializeAmbience(FMODEvents.instance.Hell);
         //InitializeMusic(FMODEvents.instance.music);
     }
 
