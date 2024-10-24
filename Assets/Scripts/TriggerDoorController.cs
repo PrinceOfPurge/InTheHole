@@ -16,12 +16,14 @@ public class TriggerDoorController : MonoBehaviour
             {
                 myDoor.Play("dooropen", 0, 0.0f);
                 gameObject.SetActive(false);
+                AudioManager.instance.PlayOneShot(FMODEvents.instance.doorOpen, this.transform.position);
             }
 
             else if (closeTrigger)
             {
                 myDoor.Play("doorclose", 0, 0.0f);
                 gameObject.SetActive(false);
+                AudioManager.instance.PlayOneShot(FMODEvents.instance.doorClose, this.transform.position);
             }
         }
     }

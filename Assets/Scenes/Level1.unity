@@ -181,7 +181,7 @@ Transform:
   m_GameObject: {fileID: 549704026}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.008, y: 0.89, z: -0.798}
+  m_LocalPosition: {x: -0.008, y: 0.89, z: -1.562}
   m_LocalScale: {x: 1.15, y: 2.04, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1332,7 +1332,21 @@ MonoBehaviour:
       Data2: 1312094101
       Data3: 943158667
       Data4: 1807742544
-    Path: event:/PlayerFootsteps
+    Path: event:/SFX/PlayerFootsteps
+  <doorOpen>k__BackingField:
+    Guid:
+      Data1: 348048113
+      Data2: 1121228055
+      Data3: -323950415
+      Data4: 47319721
+    Path: event:/SFX/DoorOpen
+  <doorClose>k__BackingField:
+    Guid:
+      Data1: 1943059034
+      Data2: 1230416846
+      Data3: 1088108451
+      Data4: 1646154864
+    Path: event:/SFX/DoorClose
 --- !u!1 &1555781767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1505,6 +1519,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a573bba88810ee648a134fb8e4ada89e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  masterVolume: 1
+  musicVolume: 1
+  ambienceVolume: 1
+  SFXVolume: 1
 --- !u!4 &1933375590
 Transform:
   m_ObjectHideFlags: 0

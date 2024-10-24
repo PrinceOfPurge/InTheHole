@@ -14,11 +14,11 @@ public class FMODEvents : MonoBehaviour
     [field: Header("Player SFX")]
     [field: SerializeField] public EventReference playerFootsteps { get; private set; }
     
-   // [field: Header("doorOpen")]
-    //[field: SerializeField] public EventReference doorOpen { get; private set; }    
+    [field: Header("doorOpen")]
+    [field: SerializeField] public EventReference doorOpen { get; private set; }    
     
-    //[field: Header("doorClose")]
-    //[field: SerializeField] public EventReference doorClose { get; private set; }
+    [field: Header("doorClose")]
+    [field: SerializeField] public EventReference doorClose { get; private set; }
     
     public static FMODEvents instance { get; private set; }
 
