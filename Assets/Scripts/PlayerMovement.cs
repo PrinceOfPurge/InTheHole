@@ -37,6 +37,9 @@ public class PlayerMovement : MonoBehaviour
 
     public MovementState state;
 
+    //Dialogue
+    public Dialogue dialogueScript;
+
     public enum MovementState
     {
         walking,
@@ -163,5 +166,29 @@ public class PlayerMovement : MonoBehaviour
             playerFootsteps.stop(STOP_MODE.ALLOWFADEOUT);
         }
 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Dia2"))
+        {
+            dialogueScript.gameObject.SetActive(true);
+            dialogueScript.dialogueTwo = true;
+            Debug.Log("hit collider");
+        }
+
+        if (other.CompareTag("Dia3"))
+        {
+            dialogueScript.gameObject.SetActive(true);
+            dialogueScript.dialogueThree = true;
+            Debug.Log("hit collider");
+        }
+
+        if (other.CompareTag("Dia4"))
+        {
+            dialogueScript.gameObject.SetActive(true);
+            dialogueScript.dialogueFour = true;
+            Debug.Log("hit collider");
+        }
     }
 }
