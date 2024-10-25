@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a491c398-959f-4a3a-8485-56f7916608c3}">
+		<property name="assetPath">
+			<value>Record (online-voice-recorder.com) (1).mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>11.304</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dfb8524e-c645-41b0-a40b-d7e62e94a765}</destination>
+		</relationship>
+	</object>
+</objects>

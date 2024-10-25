@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2b9fcce5-fc18-427e-911b-dabc056e171d}">
+		<property name="assetPath">
+			<value>Silent Hill 2 OST - Silent Heaven.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>134.00816326530611</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dfb8524e-c645-41b0-a40b-d7e62e94a765}</destination>
+		</relationship>
+	</object>
+</objects>

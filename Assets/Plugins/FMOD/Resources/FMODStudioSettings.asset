@@ -453,8 +453,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../Desktop/Assignment 1/InTheHoleAudio/InTheHoleAudio.fspro
-  sourceBankPath: ../Desktop/Assignment 1/InTheHoleAudio/Build
+  sourceProjectPath: InTheHoleAudio/InTheHoleAudio.fspro
+  sourceBankPath: InTheHoleAudio/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -479,6 +479,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Level1
+  - Music
   - SFX
   BanksToLoad: []
   LiveUpdatePort: 9264

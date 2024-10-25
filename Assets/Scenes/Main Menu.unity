@@ -466,7 +466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4, y: -3.6}
+  m_AnchoredPosition: {x: 4, y: 0.10000038}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &447292054
@@ -491,8 +491,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6a40204dcfe25564ab3eb51f776edf8e, type: 2}
-  m_sharedMaterial: {fileID: -8628654828410151056, guid: 6a40204dcfe25564ab3eb51f776edf8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3ccedb82edd9bcd4282d17d082837c67, type: 2}
+  m_sharedMaterial: {fileID: -461231780598096509, guid: 3ccedb82edd9bcd4282d17d082837c67, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -954,7 +954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1466369453}
   - component: {fileID: 1466369452}
-  - component: {fileID: 1466369451}
+  - component: {fileID: 1466369454}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -962,14 +962,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1466369451
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466369450}
-  m_Enabled: 1
 --- !u!20 &1466369452
 Camera:
   m_ObjectHideFlags: 0
@@ -1036,6 +1028,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1466369454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466369450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 7539483715666827853, guid: 8b80a9b28f17dda42a142349813b3494, type: 3}
 --- !u!1 &1661954781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,8 +1103,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6a40204dcfe25564ab3eb51f776edf8e, type: 2}
-  m_sharedMaterial: {fileID: -8628654828410151056, guid: 6a40204dcfe25564ab3eb51f776edf8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3ccedb82edd9bcd4282d17d082837c67, type: 2}
+  m_sharedMaterial: {fileID: -461231780598096509, guid: 3ccedb82edd9bcd4282d17d082837c67, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

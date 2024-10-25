@@ -50,8 +50,7 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        InitializeAmbience(FMODEvents.instance.Hell);
-        //InitializeMusic(FMODEvents.instance.music);
+        InitializeMusic(FMODEvents.instance.Music);
     }
 
     private void Update()
@@ -61,29 +60,14 @@ public class AudioManager : MonoBehaviour
         ambienceBus.setVolume(ambienceVolume);
         sfxBus.setVolume(SFXVolume);
     }
-
-    private void InitializeAmbience(EventReference ambienceEventReference)
-    {
-        ambienceEventInstance = CreateInstance(ambienceEventReference);
-        ambienceEventInstance.start();
-    }
     
     private void InitializeMusic(EventReference musicEventReference)
     {
         musicEventInstance = CreateInstance(musicEventReference);
         musicEventInstance.start();
     }
+    
 
-    public void SetAmbienceParameter(string ParameterName, float ParameterValue)
-    {
-        ambienceEventInstance.setParameterByName(ParameterName, ParameterValue);
-    }
-
-    /*public void SetMusicArea(MusicArea area)
-    {
-        musicEventInstance.setParameterByName("area", (float) area);
-    }
-*/
     public void PlayOneShot(EventReference sound, Vector3 worldPos)
     {
         RuntimeManager.PlayOneShot(sound, worldPos);
