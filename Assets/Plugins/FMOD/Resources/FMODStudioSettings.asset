@@ -478,7 +478,6 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Level1
   - Music
   - SFX
   BanksToLoad: []

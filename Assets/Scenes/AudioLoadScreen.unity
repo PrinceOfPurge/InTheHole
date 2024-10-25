@@ -1163,7 +1163,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Banks:
-  - Level1
   - Master
   - Music
   - SFX
