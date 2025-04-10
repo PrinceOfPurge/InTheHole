@@ -39,6 +39,7 @@ public class PauseMenuUI : MonoBehaviour
     void OnSoundSettings()
     {
         VolumeControl.gameObject.SetActive(true);
+        
     }
 
     void OnMainMenuButtonClick()
